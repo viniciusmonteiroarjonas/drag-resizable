@@ -27,7 +27,8 @@ function mousedown(e) {
 
   function mouseup(e) {
     window.removeEventListener('mousemove', mousemove);
-    window.removeEventListener('mouseup', mouseup)
+    window.removeEventListener('mouseup', mouseup);
+    isResizing = true;
   }
 }
 
